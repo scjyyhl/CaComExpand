@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char CaComExpandVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CaComExpand/PublicHeader.h>
 
-
+#import "NSDate+Expand.h"
+#import "NSData+Expand.h"
