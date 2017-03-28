@@ -15,7 +15,7 @@
 
  @return 返回的字符串
  */
-- (NSString *)TimePass;
+- (NSString  * _Nonnull)TimePass;
 
 @end
 
@@ -28,7 +28,8 @@
  @param format 日期的格式字符串
  @return 返回日期对象
  */
-+ (instancetype)dateWithString:(NSString *)timeStr Format:(NSString *)format;
++ (instancetype _Nullable)dateWithString:(NSString * _Nonnull)timeStr
+                                  Format:(NSString * _Nonnull)format;
 
 /**
  格式化日期时间字符串
@@ -36,13 +37,13 @@
  @param format 日期时间的格式；如（yyyy-MM-dd HH:mm:ss）
  @return 返回格式化的字符串
  */
-- (NSString *)toStrigWithFormat:(NSString *)format;
+- (NSString * _Nullable)toStrigWithFormat:(NSString * _Nonnull)format;
 
 /**
  格式化日期时间字符串（yyyy-MM-dd HH:mm:ss）
 
  @return 返回格式化后的日期时间字符串
  */
-- (NSString *)toString;
+- (NSString * _Nullable)toString;
 
 @end

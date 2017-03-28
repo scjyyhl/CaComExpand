@@ -6,8 +6,6 @@
 //  Copyright © 2017年 HaiLong.Yang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for CaComExpand.
 FOUNDATION_EXPORT double CaComExpandVersionNumber;
 
