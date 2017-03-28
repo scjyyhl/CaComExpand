@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CaComExpand"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS基础框架扩展，如NSDate扩展，NSData扩展等...，提供常用功能扩展"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/scjyyhl/CaComExpand.git", :commit => "0f717faaacbfb34e37c125046b46c91ca72fedb8" }
+  s.source       = { :git => "https://github.com/scjyyhl/CaComExpand.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
