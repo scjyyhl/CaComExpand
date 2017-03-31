@@ -40,11 +40,11 @@
     for (uint16_t i = 0; i < self.length; i++) {
         char tch[6];
         if (pch[i] > 0xFF) {
-            sprintf(tch, "%X", pch[i] >> 8);
-            sprintf((tch + 2), " %X", pch[i] & 0xFF);
+            sprintf(tch, "%02X", pch[i] >> 8);
+            sprintf((tch + 2), " %02X", pch[i] & 0xFF);
         }
         else {
-            sprintf(tch, "%X", pch[i]);
+            sprintf(tch, "%02X", pch[i]);
         }
         [rtnStr appendString:[NSString stringWithCString:tch encoding:NSASCIIStringEncoding]];
         [rtnStr appendString:@" "];

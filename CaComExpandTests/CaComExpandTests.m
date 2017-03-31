@@ -43,7 +43,7 @@
 - (void)testExampleHexOrToHexStr {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    NSString *testStr = @"我是中国人";
+    NSString *testStr = @"ᄁx萁ལ潭⹣桡湧桯湧⸪";
     NSString *hexStr;
     if ([testStr isHexString]) {
         hexStr = testStr;

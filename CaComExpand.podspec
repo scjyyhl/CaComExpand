@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CaComExpand"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "iOS基础框架扩展，如NSDate扩展，NSData扩展等...，提供常用功能扩展"
 
   # This description is used to generate tags and improve search results.
