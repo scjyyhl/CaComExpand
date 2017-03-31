@@ -13,7 +13,21 @@
 		3A96A1C71E88E94400F7C36D /* NSData+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A96A1C31E88E94400F7C36D /* NSData+Expand.h */; };
 		3A96A1C81E88E94400F7C36D /* NSData+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A96A1C41E88E94400F7C36D /* NSData+Expand.m */; };
 		3A96A2181E88EA0700F7C36D /* CacomExpand.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3A96A2171E88EA0700F7C36D /* CacomExpand.podspec */; };
+		3A9D947C1E8DF153000D3E85 /* NSString+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9D947A1E8DF153000D3E85 /* NSString+Expand.h */; };
+		3A9D947D1E8DF153000D3E85 /* NSString+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D947B1E8DF153000D3E85 /* NSString+Expand.m */; };
+		3A9D948A1E8E1D31000D3E85 /* CaComExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D94891E8E1D31000D3E85 /* CaComExpandTests.m */; };
+		3A9D948C1E8E1D31000D3E85 /* CaComExpand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A96A1B41E88E58500F7C36D /* CaComExpand.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A9D948D1E8E1D31000D3E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A96A1AB1E88E58500F7C36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A96A1B31E88E58500F7C36D;
+			remoteInfo = CaComExpand;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3A96A1B41E88E58500F7C36D /* CaComExpand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaComExpand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +38,11 @@
 		3A96A1C31E88E94400F7C36D /* NSData+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Expand.h"; sourceTree = "<group>"; };
 		3A96A1C41E88E94400F7C36D /* NSData+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Expand.m"; sourceTree = "<group>"; };
 		3A96A2171E88EA0700F7C36D /* CacomExpand.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CacomExpand.podspec; sourceTree = "<group>"; };
+		3A9D947A1E8DF153000D3E85 /* NSString+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Expand.h"; path = "NSString/NSString+Expand.h"; sourceTree = "<group>"; };
+		3A9D947B1E8DF153000D3E85 /* NSString+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Expand.m"; path = "NSString/NSString+Expand.m"; sourceTree = "<group>"; };
+		3A9D94871E8E1D31000D3E85 /* CaComExpandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaComExpandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9D94891E8E1D31000D3E85 /* CaComExpandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaComExpandTests.m; sourceTree = "<group>"; };
+		3A9D948B1E8E1D31000D3E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9D94841E8E1D31000D3E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9D948C1E8E1D31000D3E85 /* CaComExpand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,7 @@
 			children = (
 				3A96A2171E88EA0700F7C36D /* CacomExpand.podspec */,
 				3A96A1B61E88E58500F7C36D /* CaComExpand */,
+				3A9D94881E8E1D31000D3E85 /* CaComExpandTests */,
 				3A96A1B51E88E58500F7C36D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3A96A1B41E88E58500F7C36D /* CaComExpand.framework */,
+				3A9D94871E8E1D31000D3E85 /* CaComExpandTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +86,7 @@
 		3A96A1B61E88E58500F7C36D /* CaComExpand */ = {
 			isa = PBXGroup;
 			children = (
+				3A9D94791E8DF11D000D3E85 /* NSString */,
 				3A96A1BF1E88E94400F7C36D /* NSDate */,
 				3A96A1C21E88E94400F7C36D /* NSData */,
 				3A96A1B71E88E58500F7C36D /* CaComExpand.h */,
@@ -83,6 +113,24 @@
 			path = NSData;
 			sourceTree = "<group>";
 		};
+		3A9D94791E8DF11D000D3E85 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				3A9D947A1E8DF153000D3E85 /* NSString+Expand.h */,
+				3A9D947B1E8DF153000D3E85 /* NSString+Expand.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		3A9D94881E8E1D31000D3E85 /* CaComExpandTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A9D94891E8E1D31000D3E85 /* CaComExpandTests.m */,
+				3A9D948B1E8E1D31000D3E85 /* Info.plist */,
+			);
+			path = CaComExpandTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,6 +140,7 @@
 			files = (
 				3A96A1C71E88E94400F7C36D /* NSData+Expand.h in Headers */,
 				3A96A1B91E88E58500F7C36D /* CaComExpand.h in Headers */,
+				3A9D947C1E8DF153000D3E85 /* NSString+Expand.h in Headers */,
 				3A96A1C51E88E94400F7C36D /* NSDate+Expand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +166,24 @@
 			productReference = 3A96A1B41E88E58500F7C36D /* CaComExpand.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		3A9D94861E8E1D31000D3E85 /* CaComExpandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9D948F1E8E1D31000D3E85 /* Build configuration list for PBXNativeTarget "CaComExpandTests" */;
+			buildPhases = (
+				3A9D94831E8E1D31000D3E85 /* Sources */,
+				3A9D94841E8E1D31000D3E85 /* Frameworks */,
+				3A9D94851E8E1D31000D3E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A9D948E1E8E1D31000D3E85 /* PBXTargetDependency */,
+			);
+			name = CaComExpandTests;
+			productName = CaComExpandTests;
+			productReference = 3A9D94871E8E1D31000D3E85 /* CaComExpandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -127,6 +194,11 @@
 				ORGANIZATIONNAME = HaiLong.Yang;
 				TargetAttributes = {
 					3A96A1B31E88E58500F7C36D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E7WCZQXL95;
+						ProvisioningStyle = Automatic;
+					};
+					3A9D94861E8E1D31000D3E85 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = E7WCZQXL95;
 						ProvisioningStyle = Automatic;
@@ -146,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				3A96A1B31E88E58500F7C36D /* CaComExpand */,
+				3A9D94861E8E1D31000D3E85 /* CaComExpandTests */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +232,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A9D94851E8E1D31000D3E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -168,10 +248,27 @@
 			files = (
 				3A96A1C81E88E94400F7C36D /* NSData+Expand.m in Sources */,
 				3A96A1C61E88E94400F7C36D /* NSDate+Expand.m in Sources */,
+				3A9D947D1E8DF153000D3E85 /* NSString+Expand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9D94831E8E1D31000D3E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9D948A1E8E1D31000D3E85 /* CaComExpandTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A9D948E1E8E1D31000D3E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A96A1B31E88E58500F7C36D /* CaComExpand */;
+			targetProxy = 3A9D948D1E8E1D31000D3E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3A96A1BA1E88E58500F7C36D /* Debug */ = {
@@ -316,6 +413,28 @@
 			};
 			name = Release;
 		};
+		3A9D94901E8E1D31000D3E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E7WCZQXL95;
+				INFOPLIST_FILE = CaComExpandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaiLong.Yang.CaComExpandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A9D94911E8E1D31000D3E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E7WCZQXL95;
+				INFOPLIST_FILE = CaComExpandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HaiLong.Yang.CaComExpandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +452,15 @@
 			buildConfigurations = (
 				3A96A1BD1E88E58500F7C36D /* Debug */,
 				3A96A1BE1E88E58500F7C36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9D948F1E8E1D31000D3E85 /* Build configuration list for PBXNativeTarget "CaComExpandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9D94901E8E1D31000D3E85 /* Debug */,
+				3A9D94911E8E1D31000D3E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

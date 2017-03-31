@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CaComExpandTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3A96A1B31E88E58500F7C36D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3A9D94861E8E1D31000D3E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>

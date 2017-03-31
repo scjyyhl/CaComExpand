@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSData (HexString)
+@interface NSData (CaComExpandHexString)
 
 /**
  用十六进制字符串创建对象

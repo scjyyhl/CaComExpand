@@ -14,7 +14,7 @@
 #define SEC_HOURE       (60 * 60)
 #define SEC_MINUTE      (60)
 
-@implementation NSDate (TimePass)
+@implementation NSDate (CaComExpandTimePass)
 
 - (NSString *)TimePass {
     int pass = 0;
@@ -48,7 +48,7 @@
 }
 @end
 
-@implementation NSDate (StringFormatter)
+@implementation NSDate (CaComExpandStringFormatter)
 
 + (instancetype)dateWithString:(NSString *)timeStr Format:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (TimePass)
+@interface NSDate (CaComExpandTimePass)
 
 /**
  返回该日期是今天的多久之前的；如1秒钟前，1分钟前，1小时前，1天前，1月前，1年前等...
@@ -19,7 +19,7 @@
 
 @end
 
-@interface NSDate (StringFormatter)
+@interface NSDate (CaComExpandStringFormatter)
 
 /**
  根据日期字符串创建NSDate对象

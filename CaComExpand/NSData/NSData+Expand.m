@@ -8,7 +8,7 @@
 
 #import "NSData+Expand.h"
 
-@implementation NSData (HexString)
+@implementation NSData (CaComExpandHexString)
 
 - (NSString *)toHexStr {
     if (self == nil || self.length < 1) {
