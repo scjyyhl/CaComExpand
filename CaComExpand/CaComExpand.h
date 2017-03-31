@@ -16,3 +16,4 @@ FOUNDATION_EXPORT const unsigned char CaComExpandVersionString[];
 
 #import "NSDate+Expand.h"
 #import "NSData+Expand.h"
+#import "NSString+Expand.h"
