@@ -57,7 +57,7 @@
     return [formatter dateFromString:timeStr];
 }
 
-- (NSString *)toStrigWithFormat:(NSString *)format {
+- (NSString *)toStringWithFormat:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];
     [formatter setLocale:[NSLocale localeWithLocaleIdentifier:@"zh_CN"]];
@@ -65,7 +65,7 @@
 }
 
 - (NSString *)toString {
-    return [self toStrigWithFormat:@"yyyy-MM-dd HH:mm:ss"];
+    return [self toStringWithFormat:@"yyyy-MM-dd HH:mm:ss"];
 }
 
 @end

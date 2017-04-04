@@ -37,7 +37,7 @@
  @param format 日期时间的格式；如（yyyy-MM-dd HH:mm:ss）
  @return 返回格式化的字符串
  */
-- (NSString * _Nullable)toStrigWithFormat:(NSString * _Nonnull)format;
+- (NSString * _Nullable)toStringWithFormat:(NSString * _Nonnull)format;
 
 /**
  格式化日期时间字符串（yyyy-MM-dd HH:mm:ss）

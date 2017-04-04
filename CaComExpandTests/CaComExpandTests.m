@@ -55,6 +55,27 @@
 //    XCTAssertTrue([hexStr isEqualToString:@"46 46 20 43 43 20 30 32 20 34 43 20 33 46"]);
 }
 
+- (void)testExampleCode {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSString *testStr = @"wo我";
+    NSData *utf8 = [testStr dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *ascii = [testStr dataUsingEncoding:NSASCIIStringEncoding];
+    NSData *unicode = [testStr dataUsingEncoding:NSUnicodeStringEncoding];
+    NSData *utf16b = [testStr dataUsingEncoding:NSUTF16BigEndianStringEncoding];
+    
+    NSData *utf16l = [testStr dataUsingEncoding:NSUTF16LittleEndianStringEncoding];
+    
+    NSLog(@"UTF-8:%@", utf8);
+    NSLog(@"ASCII:%@", ascii);
+    NSLog(@"Unicode:%@", unicode);
+    NSLog(@"UTF16Big:%@", utf16b);
+    NSLog(@"UTF16Little:%@", utf16l);
+    
+//    XCTAssertTrue([hexStr isEqualToString:@"62 11 66 2F 4E 2D 56 FD 4E BA"]);
+    //    XCTAssertTrue([hexStr isEqualToString:@"46 46 20 43 43 20 30 32 20 34 43 20 33 46"]);
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
